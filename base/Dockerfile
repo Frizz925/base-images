@@ -2,7 +2,7 @@
 #      PHPDocker.io Base Image      #
 #####################################
 
-FROM debian:jessie
+FROM debian:stretch-slim
 
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
