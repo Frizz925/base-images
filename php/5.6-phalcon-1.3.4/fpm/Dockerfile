@@ -1,4 +1,4 @@
-FROM phpdockerio/php56-fpm:latest
+FROM frizz925/php56-fpm:latest
 WORKDIR "/application"
 
 RUN /usr/bin/apt-get update && apt-get -y install git php5-dev libpcre3-dev gcc make && \

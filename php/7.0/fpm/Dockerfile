@@ -2,7 +2,7 @@
 # PHPDocker.io PHP 7.0 / FPM image #
 ####################################
 
-FROM phpdockerio/php7-cli
+FROM frizz925/php7-cli
 
 # Install FPM
 RUN apt-get update \

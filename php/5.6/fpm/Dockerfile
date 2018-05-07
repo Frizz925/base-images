@@ -2,7 +2,7 @@
 # PHPDocker.io PHP 5.6 / FPM image #
 ####################################
 
-FROM phpdockerio/php56-cli
+FROM frizz925/php56-cli
 
 # Install dotdeb repo, PHP, composer and selected extensions
 RUN apt-get update \

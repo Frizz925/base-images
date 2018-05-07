@@ -2,7 +2,7 @@
 # PHPDocker.io PHP 5.6 / CLI image #
 ####################################
 
-FROM phpdockerio/base
+FROM frizz925/base
 
 # Install dotdeb repo, PHP, composer and selected extensions
 RUN apt-get update \

@@ -2,7 +2,7 @@
 # PHPDocker.io PHP 7.1 / FPM image #
 ####################################
 
-FROM phpdockerio/php71-cli
+FROM frizz925/php71-cli
 
 # Install FPM
 RUN export DEBIAN_FRONTEND=noninteractive \
